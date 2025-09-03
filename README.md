@@ -126,7 +126,7 @@ VALUES ('管理者', 'admin@example.com', '{BCRYPT_HASH_HERE}', 'ADMIN');
 
 3) 接続設定
 
-- DB.java（または環境変数）で接続情報を設定:
+- DAO（または環境変数）で接続情報を設定:
 ```text
 JDBC_URL=jdbc:postgresql://localhost:5432/attendance_db
 DB_USER=attendance_app
